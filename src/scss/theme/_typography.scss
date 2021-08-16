@@ -1,0 +1,26 @@
+/*
+* ===================================================
+*    Typography
+* ===================================================
+*/
+a {
+    transition: all 0.3s;
+}
+
+.subtitle {
+    font-size: $font-size-base;
+    @include uppercase;
+}
+
+.section-heading {
+    font-size: $font-size-base;
+    font-weight: bold;
+    @include uppercase;
+
+    &.section-heading-ms {
+        margin-left: 1rem;
+        @include media-breakpoint-up(lg) {
+            margin-left: 2rem;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+/*
+*
+* =====================
+* Other
+* =====================
+*
+*/
+
+.dropdown-menu {
+  box-shadow: $box-shadow;
+}
+
+.notification-badge {
+  position: absolute;
+  top: 0.4rem;
+  right: -0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  text-align: center;
+  color: $white;
+  border-radius: 50%;
+
+  &.notification-badge-number {
+    top: 0rem;
+    right: -0.4rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    vertical-align: middle;
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+  }
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-grow: 0;
+  flex-shrink: 0;
+
+  &.dot-sm {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+.todo .form-check-input:checked + .form-check-label {
+  color: $gray-500;
+  text-decoration: line-through;
+}
+
+.header {
+  .dropdown-toggle {
+    &:after {
+      display: none;
+    }
+  }
+}
+.card-header-more {
+  button {
+    &:after {
+      display: none;
+    }
+  }
+}
