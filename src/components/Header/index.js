@@ -27,8 +27,8 @@ export default function Header({ setSidebarShrink, sidebarShrink }) {
         </a>
         <Link href="/" passHref>
           <Navbar.Brand className="fw-bold text-uppercase text-base">
-            <span className="d-none d-brand-partial">Inteliscan</span>{" "}
-            <span className="d-none d-sm-inline">App</span>
+            <span className="d-none d-brand-partial">Bubbly</span>{" "}
+            <span className="d-none d-sm-inline">Dashboard</span>
           </Navbar.Brand>
         </Link>
         <div className="ms-auto d-flex align-items-center mb-0">
